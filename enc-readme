@@ -1,0 +1,11 @@
+ssh.config contains the configuration files for ssh
+create symlink from ~/.ssh/config to ssh.config
+
+Since it may contain sensitive information, the file should be protected.
+
+To encrypt:
+gpg --symmetric ssh.config
+
+To decrypt:
+gpg --decrypt ssh.config.gpg 	# print to stdout
+gpg ssh.config.gpg 		# save to ssh.config file

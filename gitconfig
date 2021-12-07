@@ -1,0 +1,12 @@
+[user]
+	name = adhy-p
+	email = adhyp02@gmail.com
+[core]
+	editor = vim
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[alias]
+	unstage = reset HEAD --
