@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_DIR=$(dirname $(readlink -f $0))
+SCRIPT_DIR=$(dirname $(readlink -f $0)) # returns the absolute path of this script
 BACKUPDIR=dotfile.backup
 mkdir $BACKUPDIR
 
@@ -29,7 +29,12 @@ for f in ${files[@]}; do
     echo "creating symlink for ${f}"
 done
 
-gpg ${SCRIPT_DIR}/ssh.config.gpg
+gpg ${SCRIPT_DIR}/ssh.config.gpg # decrypt the ssh config file
 ln -s ${SCRIPT_DIR}/ssh.config ~/.ssh/config
 
 echo "Done"
+
+################################### Acknowledgement ######################################
+# This script was adapted from https://github.com/JJGO/dotfiles/blob/master/setup_all.sh #
+##########################################################################################
+
