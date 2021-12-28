@@ -22,6 +22,7 @@ backup_if_exists ~/.vimrc
 backup_if_exists ~/.zshrc
 
 mkdir -p ~/.vim/undodir
+mkdir -p ~/.vim/backup
 
 files=(bashrc gitconfig inputrc vimrc zshrc)
 for f in ${files[@]}; do
@@ -30,6 +31,7 @@ for f in ${files[@]}; do
 done
 
 gpg ${SCRIPT_DIR}/ssh.config.gpg # decrypt the ssh config file
+[ ! -d "~/.ssh" ] && mkdir ~/.ssh # create the .ssh directory if it does not exist
 ln -s ${SCRIPT_DIR}/ssh.config ~/.ssh/config
 
 echo "Done"
