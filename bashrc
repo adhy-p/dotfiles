@@ -130,4 +130,4 @@ alias ll='ls -l --color=auto'
 
 alias vi='vim'
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
