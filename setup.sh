@@ -4,7 +4,7 @@ SCRIPT_DIR=$(dirname $(readlink -f $0)) # returns the absolute path of this scri
 BACKUPDIR=dotfile.backup
 mkdir $BACKUPDIR
 
-function backup_if_exists() {
+backup_if_exists () {
     if [ -f $1 ];
     then
         mv $1 $BACKUPDIR
