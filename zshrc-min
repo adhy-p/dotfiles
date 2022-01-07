@@ -2,22 +2,22 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/adhy/.oh-my-zsh"
+# export ZSH="/home/adhy/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
-ENABLE_CORRECTION="true"
-COMPLETION_WAITING_DOTS="true"
+# ZSH_THEME="robbyrussell"
+# ENABLE_CORRECTION="true"
+# COMPLETION_WAITING_DOTS="true"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-TIMER_FORMAT='[%d]'; TIMER_PRECISION=2
-plugins=(dirhistory git safe-paste timer zsh-syntax-highlighting)
+# TIMER_FORMAT='[%d]'; TIMER_PRECISION=2
+# plugins=(dirhistory git safe-paste timer zsh-syntax-highlighting)
 
-source /etc/zsh_command_not_found
-source $ZSH/oh-my-zsh.sh
+# source /etc/zsh_command_not_found
+# source $ZSH/oh-my-zsh.sh
 
 # User configuration
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -36,4 +36,4 @@ alias open='xdg-open'
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 # fuzzy finder
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
