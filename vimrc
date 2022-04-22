@@ -41,8 +41,8 @@ set linebreak                   " if the line is too long, soft-wrap it to the n
 set wrapmargin=3                " num of chars before the end of screen to start wrapping
 set number                      " turn on line numbering
 set expandtab                   " no tabbing. <tab> is expanded into spaces
-set tabstop=4                   " set tab to equal to four spaces
-set shiftwidth=4                " set shift to four spaces 
+set tabstop=2                   " set tab to equal to four spaces
+set shiftwidth=2                " set shift to four spaces 
 set autoindent                  " turn on auto-indentation
 set smartindent                 " turn on smart indent
 set showcmd                     " show partial command in the last line of the screen

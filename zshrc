@@ -5,7 +5,7 @@
 export ZSH="/home/adhy/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 COMPLETION_WAITING_DOTS="true"
 
 # Would you like to use another custom folder than $ZSH/custom?
@@ -37,3 +37,4 @@ alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 # fuzzy finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias ghidra='/opt/ghidra/ghidra_10.1.2_PUBLIC/ghidraRun'
