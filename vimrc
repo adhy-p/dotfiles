@@ -71,7 +71,7 @@ set hls                         " hightlight matches
 set scrolloff=8                 " scroll offset = 8
 set noerrorbells visualbell t_vb= "Disable error noises
 set mouse+=a                    " Enable mouse support. 
-set relativenumber
+" set relativenumber
 
 " Unbind some useless/annoying default key bindings.
 nmap Q <Nop> " 'Q' in normal mode enters Ex mode. You almost never want this.
