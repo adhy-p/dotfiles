@@ -13,7 +13,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/syntastic'
-Plugin 'valloric/youcompleteme'
+" Plugin 'valloric/youcompleteme'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
@@ -108,3 +108,5 @@ ab psvm public static void main(String[] args) {<CR>}<esc>O
 ab pl cs1010_print_long(
 ab pd cs1010_print_double(
 ab ps cs1010_print_string("
+
+color industry

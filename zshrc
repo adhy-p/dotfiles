@@ -39,3 +39,5 @@ alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias ghidra='/opt/ghidra/ghidra_10.1.2_PUBLIC/ghidraRun'
 alias john='/opt/john/run/john'
+alias nus='cd ~/Desktop/Y4S1'
+alias bitlocker='~/bin/unlock_bitlocker.sh'
